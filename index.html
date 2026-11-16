@@ -1,13 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy – Privacy Focus VPN</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – "Privacy Focus VPN"</title>
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6;max-width:760px;margin:0 auto;padding:24px 16px;color:#1a1a1a}
+  h1{font-size:1.8rem} h2{font-size:1.25rem;margin-top:2rem;border-bottom:1px solid #ddd;padding-bottom:4px}
+  table{border-collapse:collapse;width:100%;font-size:.95rem} th,td{border:1px solid #ddd;padding:8px;text-align:left;vertical-align:top} th{background:#f4f4f4}
+  @media (prefers-color-scheme:dark){body{background:#121212;color:#eee} th{background:#222} th,td,h2{border-color:#444}}
+</style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p>Last updated: 16 November 2026</p>
-  <!-- your policy sections here -->
+
+<h1>Privacy Policy</h1>
+<p><strong>App:</strong> Privacy Focus VPN (the "App") &nbsp;|&nbsp; <strong>Last updated:</strong> 16 November 2026</p>
+
+<p>This policy explains what personal data the App and its VPN service collect, why, how long we keep it, and what rights you have. We aim to collect as little data as possible.</p>
+
+<h2>1. Who is responsible (data controller)</h2>
+<p>
+[YOUR FULL NAME OR BUSINESS NAME]<br>
+[STREET ADDRESS, POSTCODE, CITY], the Netherlands<br>
+[KvK NUMBER, if registered]<br>
+Contact: <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a>
+</p>
+
+<h2>2. What data we process</h2>
+<table>
+<tr><th>Data</th><th>What it is</th><th>Why we need it</th><th>Legal basis (GDPR)</th></tr>
+<tr>
+  <td><strong>Google account identifier</strong></td>
+  <td>The unique ID returned by Google Sign-In (OAuth). We do not receive your password.</td>
+  <td>To create and identify your account and link it to your subscription.</td>
+  <td>Art. 6(1)(b), performance of a contract</td>
+</tr>
+<tr>
+  <td><strong>Connection data</strong></td>
+  <td>Your device's WireGuard public key, the internal VPN IP address assigned to you, the time of your most recent connection (handshake), the IP address you connect from, and data-volume counters.</td>
+  <td>To set up and operate your VPN tunnel, enforce plan limits, and prevent abuse and attacks on the service.</td>
+  <td>Art. 6(1)(b) to provide the service; Art. 6(1)(f), our legitimate interest in security and preventing abuse</td>
+</tr>
+<tr>
+  <td><strong>Subscription data</strong></td>
+  <td>Your plan or product, subscription status, start and expiry dates, and the purchase token issued by Google Play Billing.</td>
+  <td>To verify that you have an active subscription and grant access.</td>
+  <td>Art. 6(1)(b), performance of a contract</td>
+</tr>
+<tr>
+  <td><strong>Server logs</strong></td>
+  <td>Standard web-server and API logs (IP address, timestamp, request type, status code).</td>
+  <td>Security, troubleshooting and abuse prevention.</td>
+  <td>Art. 6(1)(f), legitimate interest</td>
+</tr>
+</table>
+
+<p><strong>What we do not collect.</strong> We do not collect your name, email address, phone number, contacts, location, or payment card details. [CONFIRM BEFORE PUBLISHING: We do not monitor, record or store the content of your internet traffic or the websites and services you visit through the VPN.]</p>
+<p>Payments are processed entirely by Google Play. We never see your card or payment details.</p>
+<p>We do not sell your data, and we do not use it for advertising or profiling. [CONFIRM: The App contains no third-party advertising or analytics SDKs.]</p>
+
+<h2>3. How long we keep data</h2>
+<table>
+<tr><th>Data</th><th>Retention</th></tr>
+<tr><td>Google account identifier and subscription data</td><td>For as long as your account exists, then deleted within [30] days of account deletion. Subscription records may be kept longer only where the law requires (e.g. tax and accounting rules, up to 7 years).</td></tr>
+<tr><td>Connection data (public key, assigned IP, last handshake, traffic counters)</td><td>While your account is active. Source IP addresses and connection timestamps are deleted or anonymised after [DAYS, e.g. 7–30] days.</td></tr>
+<tr><td>Server logs</td><td>[DAYS, e.g. 14] days, then automatically deleted.</td></tr>
+</table>
+
+<h2>4. Who we share data with</h2>
+<p>We share data only with the providers needed to run the service (processors), under data-processing terms:</p>
+<ul>
+  <li><strong>Google</strong> (Google Sign-In and Google Play Billing). Google processes your data under its own privacy policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
+  <li><strong>[HOSTING PROVIDER NAME]</strong>, which hosts our VPN servers in [COUNTRY/REGION].</li>
+</ul>
+<p>We may disclose data if legally required, for example by a valid order from a competent authority.</p>
+
+<h2>5. International transfers</h2>
+<p>Where data is transferred outside the European Economic Area (for example to Google LLC in the United States), we rely on an EU adequacy decision (such as the EU–US Data Privacy Framework) or the European Commission's Standard Contractual Clauses.</p>
+
+<h2>6. Your rights</h2>
+<p>Under the GDPR you have the right to:</p>
+<ul>
+  <li>access the personal data we hold about you;</li>
+  <li>have inaccurate data corrected;</li>
+  <li>have your data erased ("right to be forgotten");</li>
+  <li>restrict or object to processing based on our legitimate interests;</li>
+  <li>receive your data in a portable format;</li>
+  <li>lodge a complaint with a supervisory authority. In the Netherlands this is the <a href="https://autoriteitpersoonsgegevens.nl">Autoriteit Persoonsgegevens</a>, or the authority in your own EU country.</li>
+</ul>
+<p>To exercise these rights, email <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a>. We will respond within one month.</p>
+
+<h2>7. Deleting your account and data</h2>
+<p>You can delete your account in the App under [SETTINGS → DELETE ACCOUNT], or request deletion by emailing <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a> from the address linked to your request with your account details. Deleting your account removes your Google identifier, VPN configuration and connection data from our systems within [30] days, apart from records we must keep by law. Deleting your account does not cancel a Google Play subscription. You must cancel that in Google Play.</p>
+
+<h2>8. Security</h2>
+<p>All traffic between the App and our servers is encrypted (HTTPS/TLS for the API and WireGuard for the VPN tunnel). Access to our servers is restricted and protected. No system is perfectly secure, but we take appropriate technical and organisational measures to protect your data.</p>
+
+<h2>9. VPN permission</h2>
+<p>The App uses Android's VpnService permission solely to create the VPN tunnel you request, so that your device's internet traffic is routed through our servers. We do not use this permission to collect personal data or to inject ads or tracking.</p>
+
+<h2>10. Children</h2>
+<p>The App is not intended for anyone under 18. We do not knowingly collect data from children. If you believe a child has used the App, contact us and we will delete the data.</p>
+
+<h2>11. Changes to this policy</h2>
+<p>We may update this policy. The "Last updated" date above shows the latest version, and we will notify you in the App of material changes.</p>
+
+<h2>12. Contact</h2>
+<p>Questions or requests: <a href="mailto:[CONTACT EMAIL]">[CONTACT EMAIL]</a></p>
+
 </body>
 </html>
